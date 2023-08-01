@@ -1,0 +1,23 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    background-color: #161616;
+    background-image: url("../public/19406398-removebg-preview.png");  
+  }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    background-color: #F4D504;
+    padding: 0px 20px 0px 0px;
+  }
+
+  .logo {
+    width: 150px;
+    height: 150px;
+  }

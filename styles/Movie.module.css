@@ -1,0 +1,85 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+    border-radius: 10px 10px 10px 10px;
+	margin: 20px;
+    border: 1px solid #F4D504;
+}
+
+.card:hover {
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+.backgroundImage {
+	border-radius: 10px 10px 10px 10px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: "absolute";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white
+}
+
+.title {
+    font-size: 15px;
+}
+
+.genre {
+    font-size: 10px;
+}
+
+.play {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.play:hover {
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+}
+
+/* .popoverContent {
+	border: 1px black solid;
+	border-radius: 4px;
+    height: 20%px;
+	width: 30%;
+    text-align: right;
+    color: white;
+    background-color: #737373;
+}
+
+.popover {
+    transition-duration: 0.5s;
+	cursor: pointer;
+
+} */
+
+
