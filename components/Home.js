@@ -41,6 +41,9 @@ const movies = allMovies.map((data, i) => {
           <div>
             <img className={styles.logo} src='WeStreamlogo.png' alt='logo' />
           </div>
+          <div>
+            <FontAwesomeIcon icon={faUser} style={{ fontSize: "30px", cursor: 'pointer'}}/>
+          </div>
         </div>
         <div className={styles.moviesContainer}>
           {movies}
